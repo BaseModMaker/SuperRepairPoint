@@ -1,0 +1,24 @@
+type: RepairPoint
+name: super-repair-point
+description: a better version of the repair point. Requires additional cryofluid to operate.
+liquidCapacity: 10
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: false
+consumes: {
+  power: 3
+	liquid: {
+    liquid: cryofluid
+    amount: 0.07
+  }
+}
+requirements: [
+  lead/50
+  titanium/50
+  plastanium/10
+]
+repairRadius: 150
+repairSpeed: 0.6
+category: units
+research: repair-point
