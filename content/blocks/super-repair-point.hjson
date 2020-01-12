@@ -7,7 +7,7 @@ hasPower: true
 hasLiquids: true
 hasItems: false
 consumes: {
-  power: 3
+  power: 60
 
   liquid: {
   liquid: water
