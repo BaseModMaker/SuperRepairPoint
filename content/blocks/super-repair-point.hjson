@@ -1,17 +1,18 @@
 type: RepairPoint
-name: super-repair-point
-description: a better version of the repair point. Requires additional cryofluid to operate.
+name: Super Repair Point
+description: a better version of the repair point.
 liquidCapacity: 10
 size: 2
 hasPower: true
 hasLiquids: true
 hasItems: false
 consumes: {
-  power: 3
-	liquid: {
-    liquid: cryofluid
-    amount: 0.07
-  }
+  power: 0.6
+  liquid: {
+  liquid: water
+  amount: 1
+  optional: true
+}
 }
 requirements: [
   lead/50
