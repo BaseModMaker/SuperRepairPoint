@@ -7,11 +7,12 @@ hasPower: true
 hasLiquids: true
 hasItems: false
 consumes: {
-  power: 0.6
+  power: 3
+
   liquid: {
   liquid: water
-  amount: 1
-  optional: true
+  amount: 0.07
+  booster: true
 }
 }
 requirements: [
