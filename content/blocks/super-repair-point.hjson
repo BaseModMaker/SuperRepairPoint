@@ -6,8 +6,8 @@
 "hasPower": true
 "hasLiquids": true
 "hasItems": false
+"powerUse": 3.0
 "consumes": {
-   "powerUse": 3.0,
    "liquid": {
       "liquid": "water", 
       "amount": 0.07, 
