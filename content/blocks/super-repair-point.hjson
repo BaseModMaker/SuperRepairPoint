@@ -8,10 +8,11 @@
 "hasItems": false
 "consumes": {
   "power": 3,
-  "liquid": [
-{ "liquid": "water", "amount": 0.07, "booster": true },
-{ "liquid": "cryofluid", "amount": 0.07, "booster": true }
-]
+  "liquid": {
+  "liquid": "water", 
+  "amount": 0.07, 
+  "booster": true,
+  "optional": true}
 }
 requirements: [
   lead/50
