@@ -7,11 +7,12 @@
 "hasLiquids": true
 "hasItems": false
 "consumes": {
-  "liquid": {
-  "liquid": "water", 
-  "amount": 0.07, 
-  "booster": true,
-  "optional": true}
+   "power": 3.0,
+   "liquid": {
+      "liquid": "water", 
+      "amount": 0.07, 
+      "booster": true,
+      "optional": true}
 }
 requirements: [
   lead/50
