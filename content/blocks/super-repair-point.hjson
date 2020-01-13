@@ -1,20 +1,17 @@
-type: RepairPoint
-name: Super Repair Point
-description: a better version of the repair point.
-liquidCapacity: 10
-size: 2
-hasPower: true
-hasLiquids: true
-hasItems: false
-consumes: {
-  power: 3
-  liquid: {
-  liquid: water
-  amount: 0.07
-  booster: true
-  liquid: cryofluid
-  amount: 0.07
-  booster: true
+"type": "RepairPoint"
+"name": "Super Repair Point"
+"description": "a better version of the repair point."
+"liquidCapacity": 10
+"size": 2
+"hasPower": true
+"hasLiquids": true
+"hasItems": false
+"consumes": {
+  "power": 3,
+  "liquid": {
+  "liquid": [
+{ "liquid": "water", "amount": 0.07, "booster": true },
+{ "liquid": "cryofluid", "amount": 0.07, "booster": true }]
 }
 }
 requirements: [
