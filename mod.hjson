@@ -1,6 +1,6 @@
-name: “super—repair-point-mod"
-displayName: “SuperRepairPoint Mod" 
-author: “Base”
-description: “adds SuperRepairPoints that have a better range and can heal faster than the smaller versions”
-version: “1.1”
-minGameVersion: "101"
+name: super—repair-point-mod
+displayName: SuperRepairPoint Mod 
+author: Base
+description: adds SuperRepairPoints that have a better range and can heal faster than the smaller versions
+version: 1.1
+minGameVersion: 101
